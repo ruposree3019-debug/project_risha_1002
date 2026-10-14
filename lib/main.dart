@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:project_risha/homepage.dart';
+import 'package:project_risha/container_page.dart';
+
+//import 'package:project_risha/home_page.dart';
+import 'package:project_risha/homepagenew.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.light(),
       debugShowCheckedModeBanner: false,
-      home: Homepage(),
+      home: ContainerPage(),
     );
   }
 }
